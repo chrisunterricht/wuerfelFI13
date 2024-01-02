@@ -7,6 +7,7 @@ public class Main
         Wuerfel w1 = new Wuerfel();
         Wuerfel w2 = new Wuerfel();
         //Worker.paschKurz(w1.wurf(), w2.wurf());
-        Worker.bisZumPaschUndDarueberHinaus();
+        //Worker.bisZumPaschUndDarueberHinaus();
+        Worker.augenzaehler();
     }
 }
