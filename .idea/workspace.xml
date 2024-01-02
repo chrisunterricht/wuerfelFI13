@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d09dee9-1e70-4726-9064-ec5fa7ef0de0" name="Changes" comment="Paschdetektor 0.1">
+    <list default="true" id="6d09dee9-1e70-4726-9064-ec5fa7ef0de0" name="Changes" comment="Paschdetektor 0.5 und Wiederholung des Wurfs wenn Pasch (mit Debug)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Worker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Wuerfel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wuerfel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1704180823343</updated>
       <workItem from="1704180824734" duration="16000" />
-      <workItem from="1704180847213" duration="9315000" />
+      <workItem from="1704180847213" duration="10333000" />
     </task>
     <task id="LOCAL-00001" summary="Vor Frühstückspause">
       <option name="closed" value="true" />
@@ -94,7 +93,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704189807384</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Paschdetektor 0.5 und Wiederholung des Wurfs wenn Pasch (mit Debug)">
+      <option name="closed" value="true" />
+      <created>1704193603117</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1704193603117</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,7 +111,8 @@
     <MESSAGE value="Vor Frühstückspause" />
     <MESSAGE value="Nach Frühstückspause: Simple Refactoring" />
     <MESSAGE value="Paschdetektor 0.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Paschdetektor 0.1" />
+    <MESSAGE value="Paschdetektor 0.5 und Wiederholung des Wurfs wenn Pasch (mit Debug)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Paschdetektor 0.5 und Wiederholung des Wurfs wenn Pasch (mit Debug)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

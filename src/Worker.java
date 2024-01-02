@@ -31,6 +31,21 @@ public class Worker {
         return wurf1 == wurf2;
     }
 
+    public static void bisZumPaschUndDarueberHinaus(){
+        Wuerfel w1 = new Wuerfel();
+        Wuerfel w2 = new Wuerfel();
+        int wuerfe = 0;
+        int erfolglos = 0;
+        boolean erg = false;
+        while (wuerfe == 0) {
+            do {
+                erg = Worker.paschBool(w1.wurf(), w2.wurf());
+                if (erg) wuerfe++;
+            } while (erg);
+            erfolglos++;
+        }
+        System.out.println("Nach " + erfolglos + " Versuchen gab es einen Pasch - und dann direkt " + wuerfe + " hintereinander.");
+    }
     public void howManyNonStatic(){
         Wuerfel w = new Wuerfel();
         int anzahl6 = 0;
