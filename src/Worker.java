@@ -23,8 +23,14 @@ public class Worker {
     }
 
     public static void paschKurz(int wurf1, int wurf2){
+        //ternary / ternärer Operator
         System.out.println(wurf1 == wurf2 ? "Pasch" : "Kein Pasch!");
     }
+
+    public static boolean paschBool(int wurf1, int wurf2){
+        return wurf1 == wurf2;
+    }
+
     public void howManyNonStatic(){
         Wuerfel w = new Wuerfel();
         int anzahl6 = 0;
