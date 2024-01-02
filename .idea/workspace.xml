@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d09dee9-1e70-4726-9064-ec5fa7ef0de0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Wuerfel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuerferlFI13.iml" afterDir="false" />
+    <list default="true" id="6d09dee9-1e70-4726-9064-ec5fa7ef0de0" name="Changes" comment="Vor Frühstückspause">
+      <change afterPath="$PROJECT_DIR$/src/Worker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +51,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-1.8.0_392-liberica-1.8.0_392-f644763e9732-5890202f" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -65,12 +67,25 @@
       <option name="presentableId" value="Default" />
       <updated>1704180823343</updated>
       <workItem from="1704180824734" duration="16000" />
-      <workItem from="1704180847213" duration="3218000" />
+      <workItem from="1704180847213" duration="4840000" />
     </task>
+    <task id="LOCAL-00001" summary="Vor Frühstückspause">
+      <option name="closed" value="true" />
+      <created>1704184257581</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1704184257581</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Vor Frühstückspause" />
+    <option name="LAST_COMMIT_MESSAGE" value="Vor Frühstückspause" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
