@@ -1,5 +1,5 @@
 public class Worker {
-    private static final int[] augen = new int[6];
+    private static int[] augen;
 
     public static void howMany(){
         Wuerfel w = new Wuerfel();
@@ -25,6 +25,7 @@ public class Worker {
     }
 
     public static void augenzaehlerBisHundert(){
+        augen = new int[6];
         Wuerfel w = new Wuerfel();
         for (int i = 1; i <= 100; i++){
             // w.wurf() ergibt eine Zahl von 1 bis 6
@@ -67,12 +68,14 @@ public class Worker {
 
     public static void augenProzent(int count)
     {
+        augen = new int[6];
         Wuerfel w = new Wuerfel();
         for (int i = 1; i <= count; i++){
             augen[w.wurf() -1]++;
         }
         int augenKey = 1;
         for (int auge : augen){
+            augenKey++; // Vergesslichkeit ist toll...
             double prozent = ((double)auge / count) * 100;
             System.out.print("Anzahl der Würfe einer " +augenKey+ ": ");
             System.out.print(auge + "(" + Math.round((prozent *100)) /100 + "%)\n ");
